@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["hey", "summer", "ukulele"];
+const songs = ["ponnin", "summer", "ukulele"];
 let songIndex = 1;
 
 function getSongTitle(song) {
@@ -17,7 +17,7 @@ function getSongTitle(song) {
 
 function loadSong(song) {
   title.innerText = getSongTitle(song);
-  audio.src = `https://github.com/bradtraversy/vanillawebprojects/blob/master/music-player/music/${song}.mp3?raw=true`;
+  audio.src = `https://github.com/jithingeorgedev/spotify-music-player/tree/main/songs/${song}.mp3?raw=true`;
   cover.src = `https://github.com/bradtraversy/vanillawebprojects/blob/master/music-player/images/${song}.jpg?raw=true`;
 }
 
