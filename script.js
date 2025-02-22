@@ -17,8 +17,8 @@ function getSongTitle(song) {
 
 function loadSong(song) {
   title.innerText = getSongTitle(song);
-  audio.src = `https://github.com/jithingeorgedev/spotify-music-player/tree/main/songs/${song}.mp3?raw=true`;
-  cover.src = `https://github.com/jithingeorgedev/spotify-music-player/tree/main/images/${song}.jpg?raw=true`;
+  audio.src = `https://github.com/jithingeorgedev/spotify-music-player/blob/main/songs/${song}.mp3?raw=true`;
+  cover.src = `https://github.com/jithingeorgedev/spotify-music-player/blob/main/images/${song}.jpg?raw=true`;
 }
 
 function playSong() {
