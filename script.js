@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["ponnin", "summer", "ukulele"];
+const songs = ["ponnin"];
 let songIndex = 1;
 
 function getSongTitle(song) {
