@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progress-container");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ["ponnin", 'ponnambal-puzhayirambil','jimikki-ponnu', 'kambathu-ponnu', 'oru-ponnu-onnu', 'bombay-ponnu', 'chinna-ponnu-na', 'ponni-nadhi'];
+const songs = ["ponnin", 'ponnambal-puzhayirambil','jimikki-ponnu','kambathu-ponnu','oru-ponnu-onnu','bombay-ponnu','chinna-ponnu-na','ponni-nadhi'];
 let songIndex = 1;
 
 function getSongTitle(song) {
