@@ -189,9 +189,3 @@ body {
 }
 
 
-.title {
-  background: linear-gradient(45deg, #ff6b6b, #ffb6c1, #f06292);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
