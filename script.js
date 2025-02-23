@@ -79,3 +79,7 @@ audio.addEventListener("ended", nextSong);
 // Init
 loadSong(songs[songIndex]);
 
+
+
+
+
